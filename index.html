@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tabbed Form</title>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/animation.js"></script>
+	<script src="js/validation.js"></script>
+</head>
+<body>
+	<form name="myform" onsubmit="return validateForm()">
+		<ul>
+			<li class="title">Who Are You?</li>
+			<li class="fields">
+				<label>*First Name:</label><br>
+				<input type="text" id="first_name" class="req"><br>
+				<label>Middle Name:</label><br>
+				<input type="text" id="middle_name"><br>
+				<label>Last Name:</label><br>
+				<input type="text" id="last_name"><br>
+				<label>*Email:</label><br>
+				<input type="text" id="email" class="req"> <br>
+			</li>
+			<li class="title">Where Are You?</li>
+			<li class="fields">
+				<label>City:</label><br>
+				<input type="text" id="city"><br>
+				<label>*State:</label><br>
+				<input type="text" id="state" class="req"><br>
+				<label>Country:</label><br>
+				<input type="text" id="country"><br>
+			</li>
+			<li class="title">What Do You Do?</li>
+			<li class="fields">
+				<label>*Occupation:</label><br>
+				<input type="text" id="occupation" class="req"><br>
+				<label>Company:</label><br>
+				<input type="text" id="company"><br>
+				<label>Company Location:</label><br>
+				<input type="text" id="location"><br>
+			</li>
+			<li>
+				<input type="submit" class="btn" value"Submit Form">				
+			</li>
+		</ul>
+	</form>
+</body>
+</html>

@@ -1,0 +1,59 @@
+html {
+	font-family: 'Open Sans';
+}
+
+body {
+	width: 500px;
+	margin: auto;
+	text-align: center;
+}
+
+li {
+	list-style: none;
+}
+
+.fields {
+	margin: 0;
+	padding: 1em 0;
+}
+
+.title {
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 1.5em;
+	line-height: 2em;
+	border-bottom: 1px solid #c5c5c5;
+	border-top: 1px solid white;
+}
+
+.title:hover {
+	background-color: #fff;
+	color: lightblue;
+	border: 2px solid lightblue;
+}
+
+.hide {
+	display: none;
+}
+
+.title, .btn {
+	border-radius: 5px;
+}
+
+.btn {
+	cursor: pointer;
+	background-color: #fff;
+	border: 1px solid lightblue;
+	color: lightblue;
+	font-weight: bold;
+	font-size: 1em;
+	text-align: center;
+	height: 2em;
+	width: 100px;
+	margin: 10px;
+}
+
+.btn:hover, .title {
+	background-color: lightblue;
+	color: #fff;
+}
